@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Log Test Page</title>
+</head>
+<body>
+  <script>
+    setTimeout(function () {
+        console.log('[AUTOMATION]: Starting Async code');
+
+        setTimeout(function () {
+            console.log('[AUTOMATION]: Async code done')
+        }, 5000);
+    }, 5000);
+  </script>
+</body>
+</html>
